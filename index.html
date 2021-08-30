@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js" defer></script>
+    <title>Criptografia</title>
+</head>
+
+<body>
+    <header class="header">
+
+    </header>
+    
+    <div class="card">
+        
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <img src="./images/copy_661157478.png" alt="Profile Image" class="profile-img">
+        </div>
+        <div class="card-body">
+            <div class="container">
+                <select class="select" name="" id="selectCripto">
+                    <option value=''>Escolha o tipo da criptografia</option>
+                    <option value="base64">Base64</option>
+                    <option value="cifraCesar">Cifra de Cesar</option>
+                </select>
+                <div id="aparece"></div>
+                <p class="labelRadio">Escolha a opção desejada:</p>
+                <form class="radio">                    
+                      <input type="radio" id="rc" name="fav_language" value="cripto">
+                      <label for="Cripto">Criptografar</label><br>
+                      <input type="radio" id="rd" name="fav_language" value="descritografa">
+                      <label for="descriptografa">Descriptografar</label><br>  
+                </form>
+                <input class='inputFrase' type="text" name="" id="frase" value="">
+                <div id="apareceBtn"></div>
+                <div id="result"></div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <p class="count"> Criptografa | Descriptografa</p>
+        </div>
+    </div>
+</body>
+
+</html>
